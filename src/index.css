@@ -1,0 +1,49 @@
+@import '~antd/dist/antd.css';
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont,"SplineSansMono", 'NotoSerifRegular','Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.app-root {
+  height: 100vh;
+  background: black;
+}
+html {
+  font-size: 9px;
+}
+@media screen and (min-width: 460px) {
+  html {
+    font-size: 11px;
+  }
+}
+@media screen and (min-width: 530px) {
+  html {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 1015px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: "NotoSerifRegular";
+  src: local("NotoSerifRegular"),
+    url("./fonts/notoSerif/NotoSerifDisplay-VariableFont_wdth,wght.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "SplineSansMono";
+  src: local("SplineSansMono"),
+    url("./fonts/splineSans/SplineSansMono-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal;
+}
