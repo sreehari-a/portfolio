@@ -12,8 +12,8 @@ export const projects = [
     {
         name: 'C-Tracker',
         link: 'https://sreehari-a.github.io/speed-tracker/',
-        description: `A tool to analyze speed and performance of multiple pages and combines them to a single table where 
-        you can compare various performance metrics`,
+        description: `A tool to analyze speed and performance of multiple websites, compare them based on various 
+        performance metrics, and to dowload spreadsheets for detailed analysis`,
         techStack: ['react', 'redux-saga'],
         cover: SpeedTrackerLogo,
     },
