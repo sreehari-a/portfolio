@@ -1,5 +1,7 @@
 import MemoirsLogo from '../images/blog-logo.png';
 import SpeedTrackerLogo from '../images/speed tracker logo.png';
+import EcomAppLogo from  '../images/ecom-app-logo.png'
+
 export const projects = [
     {
         name: 'Memoirs',
@@ -16,5 +18,12 @@ export const projects = [
         performance metrics, and to dowload spreadsheets for detailed analysis`,
         techStack: ['react', 'redux-saga'],
         cover: SpeedTrackerLogo,
+    },
+    {
+        name: 'Shop Easy',
+        link: 'https://sreehari-a.github.io/sample-angular-ecom-app/',
+        description: `A MEANStack sample ecommerce app which is built for learning and to get hands-on experience in fullstack development with Angular, NodeJS, Express and MongoDB`,
+        techStack: ['mean'],
+        cover: EcomAppLogo,
     },
 ]
