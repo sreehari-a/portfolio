@@ -21,7 +21,7 @@ export const projects = [
     },
     {
         name: 'Shop Easy',
-        link: 'https://sreehari-a.github.io/sample-angular-ecom-app/',
+        link: 'https://sreehari-a.github.io/product-web',
         description: `A MEANStack sample ecommerce app which is built for learning and to get hands-on experience in fullstack development with Angular, NodeJS, Express and MongoDB`,
         techStack: ['mean'],
         cover: EcomAppLogo,
