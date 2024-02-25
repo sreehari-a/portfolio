@@ -7,10 +7,6 @@ export default function styles() {
     },
     projectsContainer: {
       width: "100%",
-      display: "grid",
-      gridTemplateColumns: 'repeat(3, 1fr)',
-      gridRowGap: '1.5rem',
-      gridColumnGap: '1.5rem',
       height: 'fit-content',
       maxHeight: '100%',
       paddingTop: '1rem',
@@ -78,7 +74,7 @@ export default function styles() {
     
     '@keyframes animatePop': {
       '0%': {
-        opacity: 0,
+        opacity: 0, 
         transform: 'scale(0.5, 0.5)',
       },
 
@@ -87,5 +83,15 @@ export default function styles() {
         transform: 'scale(1, 1)',
       },
     },
+    // '@media screen and max-width: 1200px)': {
+    //   $projectsContainer: { 
+    //     gridTemplateColumns: 'repeat(2, 1fr)',
+    //   }
+    // },
+    // '@media screen and max-width: 620px)': {
+    //   $projectsContainer: { 
+    //     gridTemplateColumns: 'repeat(1, 1fr)',
+    //   }
+    // }
   };
 }

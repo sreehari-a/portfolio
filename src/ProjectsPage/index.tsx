@@ -4,6 +4,7 @@
  * This is the first thing users see of our App, at the '/' route
  */
 
+import { Row } from "antd";
 import React, { memo } from "react";
 import { compose } from "redux";
 
@@ -18,11 +19,11 @@ type Props = {
 
 export function ProjectsPage({ classes }: Props) {
   return (
-    <div className={classes.projectsContainer}>
+    <Row className={classes.projectsContainer} gutter={2}>
       {projects.map(project => (
         <ProjectItem project={project} />
       ))}
-    </div>
+    </Row>
   )
 }
 

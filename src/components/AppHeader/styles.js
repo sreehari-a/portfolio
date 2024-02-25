@@ -11,9 +11,9 @@ export default function styles() {
       color: 'white',
       '& >span': {
         margin: 'auto',
-        fontSize: '20px',
+        fontSize: '30px',
         animationDuration: '2s',
-        animationIterationCount: 'infinite',
+        animationIterationCount: '1',
         transformOrigin: 'bottom',
         '&:hover': {
           animationName: '$bounce',
@@ -23,9 +23,9 @@ export default function styles() {
       borderBottom: '.5rem solid #40c1d2'
     },
     '@keyframes bounce': {
-      '0%': { transform: 'translateY(0) scale(1)', scale: 1 },
-      '50%': { transform: 'translateY(-5px) scale(2)', scale: 2 },
-      '100%': { transform: 'translateY(0) scale(1)', scale: 2 },
+      '0%': { scale: 0.5 },
+      '50%': { scale: 1 },
+      '100%': { scale: 1 },
     },
     links: {
       height: '100%',
