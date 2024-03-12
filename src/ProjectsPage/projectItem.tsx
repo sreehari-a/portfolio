@@ -22,7 +22,9 @@ export function ProjectItem({ classes, project }: Props) {
   return (
     // <Link to={{ pathname: link }}>
     <Col sm={24} md={12} lg={8}> 
-      <a href={link} target="_blank" rel="noopener noreferrer">
+    <div style={{margin: '10px'}}>
+
+    <a href={link} target="_blank" rel="noopener noreferrer">
         <div className={classes.projectContainer} title={link}>
           <img src={cover} alt=""  className={classes.projectBg}/>
           <div className={`malayalam ${classes.projectDetails}`}>
@@ -52,6 +54,7 @@ export function ProjectItem({ classes, project }: Props) {
           </div>
         </div>
       </a>
+    </div>
     </Col>
     // </Link>
   );

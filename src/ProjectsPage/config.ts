@@ -1,16 +1,9 @@
 import MemoirsLogo from '../images/blog-logo.png';
 import SpeedTrackerLogo from '../images/speed tracker logo.png';
 import EcomAppLogo from  '../images/ecom-app-logo.png'
+import PdfGeneratorLogo from  '../images/pdf generator logo.png'
 
 export const projects = [
-    {
-        name: 'Memoirs',
-        link: 'https://sreehari-a.github.io/blog/',
-        description: `A Personal blog where I share my travel experiences and intresting photos during the journey.
-        I wish to share my reading experiences and reviews in the future. Mostly written in malayalam`,
-        techStack: ['react', 'redux-saga', 'strapi'],
-        cover: MemoirsLogo,
-    },
     {
         name: 'C-Tracker',
         link: 'https://sreehari-a.github.io/speed-tracker/',
@@ -18,6 +11,21 @@ export const projects = [
         performance metrics, and to dowload spreadsheets for detailed analysis`,
         techStack: ['react', 'redux-saga'],
         cover: SpeedTrackerLogo,
+    },
+    {
+        name: 'PDF Generator',
+        link: 'https://sreehari-a.github.io/pdf-generator-web',
+        description: `A Fullstack webapp for conerting HTML embedded with dynamic variables. Created as a developer utility which helps my team members to dev test the HTML templates`,
+        techStack: ['react', 'redux-saga', 'java'],
+        cover: PdfGeneratorLogo,
+    },
+    {
+        name: 'Memoirs',
+        link: 'https://sreehari-a.github.io/blog/',
+        description: `A Personal blog where I share my travel experiences and intresting photos during the journey.
+        I wish to share my reading experiences and reviews in the future. Mostly written in malayalam`,
+        techStack: ['react', 'redux-saga', 'strapi'],
+        cover: MemoirsLogo,
     },
     {
         name: 'Shop Easy',

@@ -36,7 +36,6 @@ export default function styles() {
       margin: 'auto',
       backgroundSize: "cover",
       width: "150px",
-      height: "150px",
     },
     projectDetails: {
       // height: "calc(100% - 200px)",
@@ -48,6 +47,7 @@ export default function styles() {
     projectHeader: {
       fontWeight: "bold",
       fontSize: "2rem",
+      wordSpacing: "-7px"
     },
     projectDesc: {
       fontSize: ".92rem",

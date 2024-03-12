@@ -3,6 +3,7 @@ import ReduxSagaLogo from "../images/logos/redux-saga.png";
 import StrapiLogo from "../images/logos/strapi.png";
 import MeanstackLogo from '../images/logos/MEANstack.png';
 import MernstackLogo from '../images/logos/MERNstack.png';
+import JavaLogo from '../images/logos/java-logo.svg';
 
 const logos = {
   react: {
@@ -38,6 +39,11 @@ const logos = {
     },
     toolTipText: 'MERN Stack Developement is a full stack developement model',
     link: 'https://www.mongodb.com/mern-stack',
+  },
+  java: {
+    image: JavaLogo,
+    toolTipText: 'Java',
+    link: 'https://www.java.com/en/',
   }
 };
 export default logos;

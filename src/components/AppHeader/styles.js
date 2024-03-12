@@ -11,7 +11,7 @@ export default function styles() {
       color: 'white',
       '& >span': {
         margin: 'auto',
-        fontSize: '30px',
+        fontSize: '1.5rem',
         animationDuration: '2s',
         animationIterationCount: '1',
         transformOrigin: 'bottom',
