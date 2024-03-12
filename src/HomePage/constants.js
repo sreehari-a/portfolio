@@ -11,38 +11,45 @@
 import ExperienceView from "./tabs/Experience/experience";
 import AboutTab from './tabs/About';
 import ContactTab from "./tabs/Contact";
+import { getExperience } from "../utils/experienceUtils";
 
 export const CHANGE_USERNAME = "boilerplate/Home/CHANGE_USERNAME";
 
 export const experiences = [
   {
-    title: "Frontend Developer",
+    title: "Web Developer",
     props: {
-      experience: "3 years",
+      experience: `${getExperience("07-08-2019")} years`,
     },
     children: [
       {
-        title: "Web Developer",
+        title: "Frontend Developer",
         props: {
-          experience: "3 years",
+          experience: `${getExperience("07-08-2019")} years`,
         },
         children: [
           {
             title: "React",
             props: {
-              experience: "3 years",
+              experience: `${getExperience("07-08-2019")} years`,
             },
           },
           {
             title: "ReduxSaga",
             props: {
-              experience: "3 years",
+              experience: `${getExperience("07-08-2019")} years`,
             },
           },
           {
             title: "Javascript",
             props: {
-              experience: "3 years",
+              experience: `${getExperience("07-08-2019")} years`,
+            },
+          },
+          {
+            title: "Next JS",
+            props: {
+              experience: `${getExperience("07-08-2022")} years`,
             },
           },
         ],

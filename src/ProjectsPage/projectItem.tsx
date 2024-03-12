@@ -21,7 +21,7 @@ export function ProjectItem({ classes, project }: Props) {
   const { name, link, description, techStack, cover } = project;
   return (
     // <Link to={{ pathname: link }}>
-    <Col sm={24} md={12} lg={8}> 
+    <Col sm={24} md={12} lg={10}> 
     <div style={{margin: '10px'}}>
 
     <a href={link} target="_blank" rel="noopener noreferrer">

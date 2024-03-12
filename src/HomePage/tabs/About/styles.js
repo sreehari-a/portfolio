@@ -17,6 +17,18 @@ export default function styles() {
         filter: "blur(4px)",
       },
     },
+    buttonContainer: {
+      animationDuration: "0.8s",
+      animationName: "$fade-in",
+      animationTimingFunction: "cubic-bezier(0.11, 0, 0.5, 0)",
+      animationIterationCount: 1,
+      animationDirection: "normal",
+      animationFillMode: "forwards",
+      animationPlayState: "running",
+      opacity: 0,
+      filter: "blur(4px)",
+      marginTop: "10px",
+    },
     "@keyframes typewriter": {
       "0%": { width: "0%" },
       "100%": { width: "100%" },
