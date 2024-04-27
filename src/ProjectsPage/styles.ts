@@ -27,31 +27,37 @@ export default function styles() {
       "&:hover": {
         transform: "translateY(-10px) scale(1) translate3d(0,0,0) perspective(1px)",
         transformOrigin: "left top",
+        animationDelay: "10s"
       },
       animationDuration: '2s',
       animationName: '$animatePop',
       animationTimingFunction: 'cubic-bezier(.26, .53, .74, 1.48)',
+      padding: "12px"
     },
     projectBg: {
       margin: 'auto',
       backgroundSize: "cover",
-      width: "150px",
+      width: "100%",
+    },
+    imgContainer: {
+      display: "flex",
+      flex: 1
     },
     projectDetails: {
-      // height: "calc(100% - 200px)",
-      width: "67%",
-      padding: "1.5rem 0.83rem",
-      textAlign: "center",
-      display: 'grid',
+      display: "flex",
+      flexDirection: "column",
+      height: "100%",
+      justifyContent: "space-between",
+      flex: 2
     },
     projectHeader: {
       fontWeight: "bold",
       fontSize: "2rem",
-      wordSpacing: "-7px"
     },
     projectDesc: {
       fontSize: ".92rem",
       textAlign: "start",
+      wordSpacing: "-1px"
     },
     projectTechStack: {
       display: 'flex',

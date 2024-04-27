@@ -1,21 +1,13 @@
+import { breakPoints } from "../../../Portfolio/styles";
+
 export default function styles() {
   return {
     container: {
       whiteSpace: "break-spaces",
-      fontSize: "1.5rem",
+      fontSize: "16px",
       color: "#40c1d2",
-      //   animation: "$typewriter 4s steps(44) 1s 1 normal both",
-      "& >span": {
-        animationDuration: "0.8s",
-        animationName: "$fade-in",
-        animationTimingFunction: "cubic-bezier(0.11, 0, 0.5, 0)",
-        animationIterationCount: 1,
-        animationDirection: "normal",
-        animationFillMode: "forwards",
-        animationPlayState: "running",
-        opacity: 0,
-        filter: "blur(4px)",
-      },
+      display: "grid",
+      rowGap: "1rem"
     },
     buttonContainer: {
       animationDuration: "0.8s",
@@ -27,7 +19,10 @@ export default function styles() {
       animationPlayState: "running",
       opacity: 0,
       filter: "blur(4px)",
-      marginTop: "10px",
+      textAlign: "center",
+      "& button": {
+        margin: "1rem"
+      }
     },
     "@keyframes typewriter": {
       "0%": { width: "0%" },
@@ -39,5 +34,31 @@ export default function styles() {
         filter: "blur(0)",
       },
     },
+    aboutHeader: {
+      fontSize: "24px",
+      fontWeight: "bold",
+      color: "white",
+    },
+    aboutText: {
+      fontSize: "16px",
+      "& > span": {
+        animationDuration: "0.8s",
+        animationName: "$fade-in",
+        animationTimingFunction: "cubic-bezier(0.11, 0, 0.5, 0)",
+        animationIterationCount: 1,
+        animationDirection: "normal",
+        animationFillMode: "forwards",
+        animationPlayState: "running",
+        opacity: 0,
+        filter: "blur(4px)",
+      },
+    },
+    bottomSection: {
+      display: "flex",
+      flexWrap: "wrap"
+    },
+    contactHeader: {
+      marginBottom: "4px"
+    }
   };
 }

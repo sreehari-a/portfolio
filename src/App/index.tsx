@@ -17,6 +17,7 @@ import stylize from "../utils/stylize";
 import MaintenancePage from "../MaintenancePage/Loadable";
 import AppHeader from "../components/AppHeader";
 import ProjectsPage from "../ProjectsPage/Loadable";
+import Portfolio  from "../Portfolio";
 
 type Props = {
   classes: any;
@@ -26,10 +27,10 @@ export function App(props: Props) {
   return (
     <div className="app-root">
       <BrowserRouter>
-        <AppHeader />
+        {/* <AppHeader /> */}
         <div className={props.classes.app}>
           <Switch>
-            <Route exact path="/portfolio" component={HomePage} />
+            <Route exact path="/portfolio" component={Portfolio} />
             <Route exact path="/projects" component={ProjectsPage} />
             <Route path="/" component={MaintenancePage} />
           </Switch>

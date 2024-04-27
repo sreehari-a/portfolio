@@ -1,6 +1,6 @@
-import MemoirsLogo from '../images/blog-logo.png';
-import SpeedTrackerLogo from '../images/speed tracker logo.png';
-import EcomAppLogo from  '../images/ecom-app-logo.png'
+import MemoirsLogo from '../images/blog-logo-transparent.png';
+import SpeedTrackerLogo from '../images/speed tracker logo-transparent.png';
+import EcomAppLogo from  '../images/ecom-app-logo-transparent.png'
 import PdfGeneratorLogo from  '../images/pdf generator logo.png'
 
 export const projects = [
@@ -23,7 +23,7 @@ export const projects = [
         name: 'Memoirs',
         link: 'https://sreehari-a.github.io/blog/',
         description: `A Personal blog where I share my travel experiences and intresting photos during the journey.
-        I wish to share my reading experiences and reviews in the future. Mostly written in malayalam`,
+        I wish to share my reading experiences and reviews in the future.`,
         techStack: ['react', 'redux-saga', 'strapi'],
         cover: MemoirsLogo,
     },
